@@ -56,3 +56,5 @@ TestResults/
 # Publish output
 publish/
 PublishProfiles/*.pubxml.user
+# Client-side libraries (LibMan restores these automatically)
+**/wwwroot/lib/
