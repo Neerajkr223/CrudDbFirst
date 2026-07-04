@@ -1,0 +1,8 @@
+# Ignore vendor/library files from language stats
+**/wwwroot/lib/** linguist-vendored
+
+# Ignore auto-generated EF Core migration designer files (optional)
+**/Migrations/*.Designer.cs linguist-generated
+
+# Treat Razor views as their own language, not plain HTML (optional)
+*.cshtml linguist-language=Razor
