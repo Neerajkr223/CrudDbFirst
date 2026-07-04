@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="CodeFirstApp/CodeFirstApp.csproj" Id="5dc2a99f-da53-4c74-8b61-b01c47b984f8" />
+  <Project Path="DbFirstDemo/DbFirstDemo.csproj" />
+  <Project Path="MultiModelDemo1/MultiModelDemo1.csproj" Id="3fbb868e-938b-40de-a327-71b9cf584e8b" />
+</Solution>

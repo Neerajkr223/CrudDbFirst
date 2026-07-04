@@ -1,0 +1,58 @@
+# Build results
+bin/
+obj/
+out/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Environment / secrets
+appsettings.Development.json
+appsettings.*.local.json
+*.env
+.env
+
+# User secrets (dotnet user-secrets tool)
+secrets.json
+
+# Database files (agar local DB jaise SQLite/LocalDB use ho raha hai)
+*.mdf
+*.ldf
+*.sqlite
+*.sqlite3
+*.db
+
+# EF Core migrations snapshot (optional — usually keep this committed)
+# Migrations/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
+*.trx
+
+# Publish output
+publish/
+PublishProfiles/*.pubxml.user
